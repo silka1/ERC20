@@ -132,12 +132,12 @@ truffle test <file_path>
 Create .env file on root with:
 
 ```
-PRIVATE_KEY = // Wallet private key
-INFURA_PROJECT_ID = // Your Infura Project Id
-TOKEN_NAME = "Token Name"
+PRIVATE_KEY = // 0x322Cee2fc1693bc416D01E3155Bcc96e9F159981
+INFURA_PROJECT_ID = // SAGAME
+TOKEN_NAME = "sagame"
 TOKEN_SYMBOL = "ERC"
 TOKEN_DECIMALS = 18
-TOKEN_TOTALSUPLY = 0
+TOKEN_TOTALSUPLY = 1000.000
 ```
 
 It is important that the chosen wallet has native tokens for the payment of gas.
